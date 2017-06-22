@@ -38,6 +38,7 @@ const styles = {
     flex: 1,
     fontSize: 18,
     textAlign: 'center',
+    color:'#fff',
     lineHeight: 40
   },
   containerStyle: {

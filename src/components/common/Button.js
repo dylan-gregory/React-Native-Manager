@@ -19,7 +19,7 @@ const Button = (props) => {
 const styles = {
   textStyle: {
     alignSelf: 'center',
-    color: '#007aff',
+    color: '#333',
     fontSize: 16,
     fontWeight: '600',
     paddingTop: 10,
@@ -28,10 +28,10 @@ const styles = {
   buttonStyle: {
     flex: 1,
     alignSelf: 'stretch',
-    backgroundColor: '#fff',
+    backgroundColor: '#E37059',
     borderRadius: 5,
-    borderWidth: 1,
-    borderColor: '#007aff',
+    borderWidth: 2,
+    borderColor: '#24828F',
     marginLeft: 5,
     marginRight: 5
   }

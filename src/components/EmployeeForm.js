@@ -32,17 +32,17 @@ class EmployeeForm extends Component {
             selectedValue={this.props.shift}
             onValueChange={day => this.props.employeeUpdate({ prop: 'shift', value: day })}
           >
-            <Picker.Item label="Monday" value="Monday" />
-            <Picker.Item label="Tuesday" value="Tuesday" />
-            <Picker.Item label="Wednesday" value="Wednesday" />
-            <Picker.Item label="Thursday" value="Thursday" />
-            <Picker.Item label="Friday" value="Friday" />
-            <Picker.Item label="Saturday" value="Saturday" />
-            <Picker.Item label="Sunday" value="Sunday" />
+            <Picker.Item label="Monday" value="Monday" color="#fff" />
+            <Picker.Item label="Tuesday" value="Tuesday" color="#fff" />
+            <Picker.Item label="Wednesday" value="Wednesday" color="#fff" />
+            <Picker.Item label="Thursday" value="Thursday" color="#fff" />
+            <Picker.Item label="Friday" value="Friday" color="#fff" />
+            <Picker.Item label="Saturday" value="Saturday" color="#fff" />
+            <Picker.Item label="Sunday" value="Sunday" color="#fff" />
           </Picker>
 
         </CardSection>
-        
+
       </View>
     )
   }
@@ -50,6 +50,7 @@ class EmployeeForm extends Component {
 
 const styles = {
   pickerTextStyle: {
+    color: '#fff',
     fontSize: 18,
     paddingLeft: 20
   }

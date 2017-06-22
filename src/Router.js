@@ -7,7 +7,11 @@ import EmployeeEdit from './components/EmployeeEdit';
 
 const RouterComponent = () => {
   return(
-    <Router sceneStyle={{ paddingTop: 65 }}>
+    <Router sceneStyle={{ paddingTop: 65, backgroundColor: '#21252B' }}
+      navigationBarStyle={{ backgroundColor: '#E37059' }}
+      barButtonIconStyle={{ tintColor: '#fff' }}
+      rightButtonTextStyle={{ color: '#fff' }}
+    >
       <Scene key="auth">
         <Scene
           key="login"
@@ -21,7 +25,7 @@ const RouterComponent = () => {
           key="employeeList"
           component={EmployeeList}
           title="Employees"
-          rightTitle="Add"
+          rightTitle="Add +"
           onRight={() => Actions.employeeCreate()}
           initial
         />

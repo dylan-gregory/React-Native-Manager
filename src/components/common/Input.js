@@ -15,6 +15,7 @@ const Input = (props) => {
         style={inputStyle}
         value={props.value}
         onChangeText={props.onChangeText}
+        placeholderTextColor='grey'
       />
     </View>
   );
@@ -22,7 +23,7 @@ const Input = (props) => {
 
 const styles = {
   inputStyle: {
-    color: '#000',
+    color: '#fff',
     paddingRight: 5,
     paddingLeft: 5,
     fontSize: 18,
@@ -30,6 +31,7 @@ const styles = {
     flex: 2
   },
   labelStyle: {
+    color: '#fff',
     fontSize: 18,
     paddingLeft: 20,
     flex: 1
